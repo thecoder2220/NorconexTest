@@ -1,0 +1,1 @@
+collector-http.bat -a start -c inaxa/inaxa-config.xml
