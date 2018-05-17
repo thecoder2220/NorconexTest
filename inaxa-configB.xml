@@ -31,10 +31,11 @@
            Optionally limit crawling to same protocol/domain/port as 
            start URLs. -->
       <startURLs stayOnDomain="true" stayOnPort="true" stayOnProtocol="true">
-        <url>http://gspsconnect3.parisgsa.lan:5678/spconnector/http://cpav-sp5-demo.lyon-dev2.local</url>
-      </startURLs>
 
-      <!-- === Recommendations: ============================================ -->
+       <url>http://subdomain.crawler-test.com/</url>
+     </startURLs>
+
+     <!-- === Recommendations: ============================================ -->
 
       <!-- Specify a crawler default directory where to generate files. -->
       <workDir>./inaxa/output</workDir>

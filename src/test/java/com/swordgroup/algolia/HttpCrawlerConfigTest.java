@@ -19,7 +19,7 @@ public class HttpCrawlerConfigTest {
     @Test
     public void testWriteRead() throws IOException {
         //File configFile = new File("minimum-config.xml");
-        File configFile = new File("inaxa-config.xml");
+        File configFile = new File("inaxa-configB.xml");
 
         //"src/site/resources/examples/complex/complex-config.xml");
         HttpCollectorConfig collectorConfig = (HttpCollectorConfig)
@@ -41,6 +41,6 @@ public class HttpCrawlerConfigTest {
 
         HttpCollector collector = new HttpCollector(collectorConfig);
         collector.start(true);
-//        XMLConfigurationUtil.assertWriteRead(config);
+        //        XMLConfigurationUtil.assertWriteRead(config);
     }
 }
